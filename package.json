@@ -14,13 +14,17 @@
     "generate-pwa-assets": "pwa-assets-generator"
   },
   "dependencies": {
+    "@react-three/drei": "^9.90.0",
+    "@react-three/fiber": "^8.15.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "three": "^0.159.0",
     "vite-plugin-pwa": "^0.17.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
+    "@types/three": "^0.159.0",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "@vite-pwa/assets-generator": "^0.0.11",
