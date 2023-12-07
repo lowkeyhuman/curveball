@@ -1,14 +1,18 @@
 import { OrbitControls } from '@react-three/drei'
+import Lights from './Lights'
+import Welcome from './Welcome'
+import { Physics } from '@react-three/rapier'
 
 const Experience = () => {
   return (
     <>
-      <mesh>
-        <boxGeometry />
-        <meshNormalMaterial />
-      </mesh>
+      <Physics>
 
-      <OrbitControls makeDefault />
+        <Welcome />
+        <Lights />
+
+        <OrbitControls makeDefault />
+      </Physics>
     </>
   )
 }
